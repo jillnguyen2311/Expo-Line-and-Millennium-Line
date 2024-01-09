@@ -16,14 +16,14 @@ const expo2bLines = expoStations.expo2bLine;
 
 const millenniumLines = millenniumStations;
 
-const blueLine = { color: 'blue', weight: 18 }; 
+const blueLine = { color: 'blue', weight: 18 };
 const yellowLine = { color: 'yellow', weight: 12 };
-const redCircle = { color: 'red', weight: 5 }; 
+const redCircle = { color: 'red', weight: 5 };
 
 const center: [number, number] = [49.2513, -123.0035];
 
 const Map = () => {
-    const sharedStations = ["Commercial-Broadway","Lougheed Town Centre","Production Way-University"];
+    const sharedStations = ["Commercial-Broadway", "Lougheed Town Centre", "Production Way-University"];
 
     return (
         <MapContainer
@@ -40,13 +40,19 @@ const Map = () => {
                 ...expo2aLines,
                 ...expo2bLines,
             ].map(station => (
-                <Marker key={station.name} position={station.coordinates} icon={sharedStations.includes(station.name) ? bothIcon : expoIcon}>
+                <Marker
+                    key={station.name}
+                    position={[...station.coordinates]}
+                    icon={sharedStations.includes(station.name) ? bothIcon : expoIcon} >
                     <Popup>{station.name}</Popup>
                 </Marker>
             ))}
 
             {millenniumLines.map(station => (
-                <Marker key={station.name} position={station.coordinates} icon={sharedStations.includes(station.name) ? bothIcon : millenniumIcon}>
+                <Marker
+                    key={station.name}
+                    position={[...station.coordinates]}
+                    icon={sharedStations.includes(station.name) ? bothIcon : millenniumIcon} >
                     <Popup>{station.name}</Popup>
                 </Marker>
             ))}
