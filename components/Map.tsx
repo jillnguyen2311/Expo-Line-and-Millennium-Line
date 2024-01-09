@@ -57,10 +57,10 @@ const Map = () => {
                 </Marker>
             ))}
 
-            <Polyline pathOptions={blueLine} positions={expo1Lines.map(station => station.coordinates)} />
-            <Polyline pathOptions={blueLine} positions={expo2aLines.map(station => station.coordinates)} />
-            <Polyline pathOptions={blueLine} positions={expo2bLines.map(station => station.coordinates)} />
-            <Polyline pathOptions={yellowLine} positions={millenniumLines.map(station => station.coordinates)} />
+            <Polyline pathOptions={blueLine} positions={expo1Lines.map(station => [station.coordinates[0], station.coordinates[1]])} />
+            <Polyline pathOptions={blueLine} positions={expo2aLines.map(station => [station.coordinates[0], station.coordinates[1]])} />
+            <Polyline pathOptions={blueLine} positions={expo2bLines.map(station => [station.coordinates[0], station.coordinates[1]])} />
+            <Polyline pathOptions={yellowLine} positions={millenniumLines.map(station => [station.coordinates[0], station.coordinates[1]])} />
 
             <CircleMarker center={center} pathOptions={redCircle} radius={20}>
                 <Popup>You are here at BCIT</Popup>
