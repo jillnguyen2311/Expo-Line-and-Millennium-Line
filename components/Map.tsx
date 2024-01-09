@@ -42,7 +42,7 @@ const Map = () => {
             ].map(station => (
                 <Marker
                     key={station.name}
-                    position={[...station.coordinates]}
+                    position={[station.coordinates[0], station.coordinates[1]]}
                     icon={sharedStations.includes(station.name) ? bothIcon : expoIcon} >
                     <Popup>{station.name}</Popup>
                 </Marker>
@@ -51,7 +51,7 @@ const Map = () => {
             {millenniumLines.map(station => (
                 <Marker
                     key={station.name}
-                    position={[...station.coordinates]}
+                    position={[station.coordinates[0], station.coordinates[1]]}
                     icon={sharedStations.includes(station.name) ? bothIcon : millenniumIcon} >
                     <Popup>{station.name}</Popup>
                 </Marker>
