@@ -1,0 +1,56 @@
+{
+    "expo": {
+      "expo1Line": [
+        {"name": "Waterfront", "coordinates": [49.285833, -123.111667]},
+        {"name": "Burrard", "coordinates": [49.285616, -123.120157]},
+        {"name": "Granville", "coordinates": [49.28275, -123.116639]},
+        {"name": "Stadium-Chinatown", "coordinates": [49.279444, -123.109444]},
+        {"name": "Main Street-Science World", "coordinates": [49.273114, -123.100348]},
+        {"name": "Commercial-Broadway", "coordinates": [49.2625, -123.068889]},
+        {"name": "Nanaimo", "coordinates": [49.248184, -123.05564]},
+        {"name": "29th Avenue", "coordinates": [49.244084, -123.045931]},
+        {"name": "Joyce-Collingwood", "coordinates": [49.23835, -123.031704]},
+        {"name": "Patterson", "coordinates": [49.22967, -123.012376]},
+        {"name": "Metrotown", "coordinates": [49.225463, -123.003182]},
+        {"name": "Royal Oak", "coordinates": [49.220004, -122.988381]},
+        {"name": "Edmonds", "coordinates": [49.212054, -122.959226]},
+        {"name": "22nd Street", "coordinates": [49.2, -122.949167]},
+        {"name": "New Westminster", "coordinates": [49.201354, -122.912716]},
+        {"name": "Columbia", "coordinates": [49.20476, -122.906161]}
+      ],
+      "expo2aLine": [
+        {"name": "Columbia", "coordinates": [49.20476, -122.906161]},
+        {"name": "Scott Road", "coordinates": [49.204444, -122.874167]},
+        {"name": "Gateway", "coordinates": [49.198945, -122.850559]},
+        {"name": "Surrey Central", "coordinates": [49.189473, -122.847871]},
+        {"name": "King George", "coordinates": [49.1827, -122.8446]}
+      ],
+      "expo2bLine": [
+        {"name": "Columbia", "coordinates": [49.20476, -122.906161]},
+        {"name": "Sapperton", "coordinates": [49.22443, -122.88964]},
+        {"name": "Braid", "coordinates": [49.23322, -122.88283]},
+        {"name": "Lougheed Town Centre", "coordinates": [49.24846, -122.89702]},
+        {"name": "Production Way-University", "coordinates": [49.25337, -122.91815]}
+      ]
+    },
+    "millennium": [
+      {"name": "VCC-Clark", "coordinates": [49.265753, -123.078825]},
+      {"name": "Commercial-Broadway", "coordinates": [49.2625, -123.068889]},
+      {"name": "Renfrew", "coordinates": [49.258889, -123.045278]},
+      {"name": "Rupert", "coordinates": [49.260833, -123.032778]},
+      {"name": "Gilmore", "coordinates": [49.26489, -123.01351]},
+      {"name": "Brentwood Town Centre", "coordinates": [49.26633, -123.00163]},
+      {"name": "Holdom", "coordinates": [49.26469, -122.98222]},
+      {"name": "Sperling-Burnaby Lake", "coordinates": [49.25914, -122.96391]},
+      {"name": "Lake City Way", "coordinates": [49.25458, -122.93903]},
+      {"name": "Production Way-University", "coordinates": [49.25337, -122.91815]},
+      {"name": "Lougheed Town Centre", "coordinates": [49.24846, -122.89702]},
+      {"name": "Burquitlam", "coordinates": [49.261389, -122.889722]},
+      {"name": "Moody Centre", "coordinates": [49.27806, -122.84579]},
+      {"name": "Inlet Centre", "coordinates": [49.277222, -122.827778]},
+      {"name": "Coquitlam Central", "coordinates": [49.273889, -122.8]},
+      {"name": "Lincoln", "coordinates": [49.280425, -122.793915]},
+      {"name": "Lafarge Lake-Douglas", "coordinates": [49.285556, -122.791667]}
+    ]
+  }
+  
