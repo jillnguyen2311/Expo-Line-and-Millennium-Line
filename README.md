@@ -4,4 +4,4 @@
 Jill Nguyen
 
 ## Description
-A responsive map help you navigate location of Expo & Millennium line skytrain stations easily.
+A responsive map help you navigate locations of Expo & Millennium line skytrain stations easily.
